@@ -1,8 +1,5 @@
 #!/usr/bin/python3
-import hidden_4
+from variable_load_5 import a
 
 if __name__ == "__main__":
-    names = dir(hidden_4)
-    for name in sorted(names):
-        if not name.startswith("__"):
-            print(name)
+    print(a)
